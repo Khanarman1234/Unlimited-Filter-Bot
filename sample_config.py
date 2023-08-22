@@ -24,7 +24,7 @@ class Config(object):
 
 
     # ID of users that can use the bot commands
-    AUTH_USERS = set(str(x) for x in os.environ.get("AUTH_USERS", "6412641300").split())
+    AUTH_USERS = set(str(x) for x in os.environ.get("AUTH_USERS", "-6412641300").split())
 
 
     # To save user details (Usefull for getting userinfo and total user counts)
