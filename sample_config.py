@@ -8,7 +8,7 @@ class Config(object):
 
 
     # Get from my.telegram.org (or @UseTGXBot)
-    API_ID = int(os.environ.get("API_ID", 28645948))
+    API_ID = int(os.environ.get("API_ID", "28645948"))
 
 
     # Get from my.telegram.org (or @UseTGXBot)
