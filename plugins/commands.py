@@ -243,12 +243,12 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Subscribe", url="https://www.youtube.com/@GreyMattersYT"),
+                    InlineKeyboardButton("Subscribe", url="https://t.me/she_knows_everything_hindi"),
                     InlineKeyboardButton("About Me", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/GreyMatter_Bots"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/greymatter_support")
+                    InlineKeyboardButton("BOT Channel", url="https://t.me/she_knows_everything_hindi"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/kdrama_family_gang")
                 ]
             ]
         ),
