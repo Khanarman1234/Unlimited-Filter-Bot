@@ -39,7 +39,7 @@ class Config(object):
 
 
     # OPTIONAL - To set alternate BOT COMMANDS
-    ADD_FILTER_CMD = os.environ.get("ADD_FILTER_CMD", "add")
+    ADD_FILTER_CMD = os.environ.get("ADD_FILTER_CMD", "filter")
     DELETE_FILTER_CMD = os.environ.get("DELETE_FILTER_CMDD", "del")
     DELETE_ALL_CMD = os.environ.get("DELETE_ALL_CMDD", "delall")
     CONNECT_COMMAND = os.environ.get("CONNECT_COMMANDD", "connect")
