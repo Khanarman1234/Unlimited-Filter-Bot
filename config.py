@@ -24,7 +24,7 @@ class Config(object):
 
 
     # ID of users that can use the bot commands
-    AUTH_USERS = set(str(x) for x in os.environ.get("AUTH_USERS", "").split())
+    AUTH_USERS = set(str(x) for x in os.environ.get("AUTH_USERS", "6425682035").split())
 
 
     # To save user details (Usefull for getting userinfo and total user counts)
@@ -35,7 +35,7 @@ class Config(object):
 
     # Go to https://dashboard.heroku.com/account, scroll down and press Reveal API
     # To check dyno status
-    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "")
+    HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "None")
 
 
     # OPTIONAL - To set alternate BOT COMMANDS
